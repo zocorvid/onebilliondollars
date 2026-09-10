@@ -1,0 +1,86 @@
+*{
+    padding:10px;
+    margin:0;
+}
+
+
+section{  
+  margin: 10px 0;
+}
+
+ul{    
+  padding-left: 30px;
+}
+
+ul ul ul {
+  margin-top: 5px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* 1. Headings */
+
+body h1 {
+        color: #3888ff;
+        background-color: black;
+        border-style: solid;
+        box-shadow: 0px 0px 10px 5px lime;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* 2. Force 'CSS' to stay uppercase */
+    
+
+/* 3. Paragraph styling */
+body p {
+        color: #ff0023;
+        background-color: black;
+        border: 2px solid #ff0023;
+}
+body a {
+        color:lime;
+        font-family: "cursive", cursive;
+        font-size: 1.2em;
+}
+body img {
+        width: 200px;
+        height: auto;
+}
+body h2 {
+        color: #f58300;
+        box-shadow: 0px 0px 10px 5px #f58300;
+        background-color: black;
+}
+   
+
+/* 4. Section borders */
+    
+
+/* 5. List styling */
+li {
+        font-family: "cursive", cursive;
+        font-size: 1.5em;
+        color: #00ffab;
+        background-color: black;
+        padding: 5px;
+}
+
+/* Lab list item colors */
+ul li:nth-child(1) {
+  color: red;
+}
+ul li:nth-child(2) {
+  color: yellow;
+}
+ul li:nth-child(3) {
+  color: orange;
+}
+ul li:nth-child(4) {
+  color: rgb(103, 103, 255);
+}
+ul li:nth-child(5) {
+  color: rgb(109, 255, 109);
+}
+
+/* Footer */
