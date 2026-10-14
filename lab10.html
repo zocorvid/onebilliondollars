@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10</title>
+<script>
+    let x;
+    do {
+        x = prompt("enter total restaurant bill amount: ");
+        if (x === "" || x === null) {
+            x = 0;
+        }
+        x = Number(x);
+        if (x === 0) {
+            x = Number(prompt("Enter a valid bill amount greater than zero!!!"));
+        }
+        if (x < 0) {
+            x = Number(prompt("enter a valid bill amount that isn't negative"));
+        }
+        if (isNaN(x)) {
+            x = Number(prompt("enter a valid bill amount that IS a  number"));
+        }
+    } while (x <= 0 || isNaN(x));
+    let tip = x * 0.10;
+    console.log("For a bill of $" + x + ", the tip should be $" + tip + ".");
+    document.write("For a bill of $" + x + ", the tip should be $" + tip + ".");
+</script></head>
+<body>
+</body>
+</html>
